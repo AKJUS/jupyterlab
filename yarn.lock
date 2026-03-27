@@ -2653,7 +2653,7 @@ __metadata:
     glob: ~7.1.6
     inquirer: ^9.1.4
     micromatch: ^4.0.2
-    minimatch: ~3.1.4
+    minimatch: ~4.2.5
     os: ~0.1.1
     package-json: ^7.0.0
     prettier: ^3.8.1
@@ -8859,7 +8859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:8.17.1, ajv@npm:^8.0.0, ajv@npm:^8.0.1, ajv@npm:^8.12.0, ajv@npm:^8.9.0":
+"ajv@npm:8.17.1":
   version: 8.17.1
   resolution: "ajv@npm:8.17.1"
   dependencies:
@@ -8880,6 +8880,18 @@ __metadata:
     json-schema-traverse: ^0.4.1
     uri-js: ^4.2.2
   checksum: 7bb3ea97bb8af52521589079f427e799b6561acaa94f50e13410cb87588c51df8db1afe1157b3e48f1a829269adaa11116e0c2cafe2b998add1523789809a3c5
+  languageName: node
+  linkType: hard
+
+"ajv@npm:^8.0.0, ajv@npm:^8.0.1, ajv@npm:^8.12.0, ajv@npm:^8.9.0":
+  version: 8.18.0
+  resolution: "ajv@npm:8.18.0"
+  dependencies:
+    fast-deep-equal: ^3.1.3
+    fast-uri: ^3.0.1
+    json-schema-traverse: ^1.0.0
+    require-from-string: ^2.0.2
+  checksum: bcdf6c7b040ca488108e2b4e219b31cf9ed478331007d4dd1ed8acc3946dd6b84295817c0f4724207b8dd8589c9966168b2fd4c7f32109d4b8526cdd3743e936
   languageName: node
   linkType: hard
 
@@ -9549,7 +9561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"braces@npm:^3.0.2, braces@npm:~3.0.2":
+"braces@npm:^3.0.3, braces@npm:~3.0.2":
   version: 3.0.3
   resolution: "braces@npm:3.0.3"
   dependencies:
@@ -15528,14 +15540,14 @@ __metadata:
   linkType: hard
 
 "js-yaml@npm:^3.10.0, js-yaml@npm:^3.12.1, js-yaml@npm:^3.13.1":
-  version: 3.14.1
-  resolution: "js-yaml@npm:3.14.1"
+  version: 3.14.2
+  resolution: "js-yaml@npm:3.14.2"
   dependencies:
     argparse: ^1.0.7
     esprima: ^4.0.0
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: bef146085f472d44dee30ec34e5cf36bf89164f5d585435a3d3da89e52622dff0b188a580e4ad091c3341889e14cb88cac6e4deb16dc5b1e9623bb0601fc255c
+  checksum: 626fc207734a3452d6ba84e1c8c226240e6d431426ed94d0ab043c50926d97c509629c08b1d636f5d27815833b7cfd225865631da9fb33cb957374490bf3e90b
   languageName: node
   linkType: hard
 
@@ -16762,12 +16774,12 @@ __metadata:
   linkType: hard
 
 "micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5":
-  version: 4.0.5
-  resolution: "micromatch@npm:4.0.5"
+  version: 4.0.8
+  resolution: "micromatch@npm:4.0.8"
   dependencies:
-    braces: ^3.0.2
+    braces: ^3.0.3
     picomatch: ^2.3.1
-  checksum: 02a17b671c06e8fefeeb6ef996119c1e597c942e632a21ef589154f23898c9c6a9858526246abb14f8bca6e77734aa9dcf65476fca47cedfb80d9577d52843fc
+  checksum: 79920eb634e6f400b464a954fcfa589c4e7c7143209488e44baf627f9affc8b1e306f41f4f0deedde97e69cb725920879462d3e750ab3bd3c1aed675bb3a8966
   languageName: node
   linkType: hard
 
@@ -16892,7 +16904,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.0.4, minimatch@npm:^3.1.2, minimatch@npm:^3.1.3, minimatch@npm:~3.1.4":
+"minimatch@npm:^3.0.4, minimatch@npm:^3.1.2, minimatch@npm:^3.1.3":
   version: 3.1.5
   resolution: "minimatch@npm:3.1.5"
   dependencies:
@@ -16925,6 +16937,15 @@ __metadata:
   dependencies:
     brace-expansion: ^2.0.1
   checksum: 2c035575eda1e50623c731ec6c14f65a85296268f749b9337005210bb2b34e2705f8ef1a358b188f69892286ab99dc42c8fb98a57bde55c8d81b3023c19cea28
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:~4.2.5":
+  version: 4.2.6
+  resolution: "minimatch@npm:4.2.6"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: 1a6b6e7d0e244531b31cbb319d969c160dea729523356e33afebb953faa55a7a7e7bd4e8433b521179a44528313d5a5be6acd0b596ef569685fd41232a1e050b
   languageName: node
   linkType: hard
 
@@ -21924,6 +21945,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vega-dataflow@npm:^5.7.8":
+  version: 5.7.8
+  resolution: "vega-dataflow@npm:5.7.8"
+  dependencies:
+    vega-format: ^1.1.4
+    vega-loader: ^4.5.4
+    vega-util: ^1.17.4
+  checksum: edc99cc15fbef422171c4bcfbe9e3fe53c1961be1bc87194e5141c176e65853b31448e57b7dede0f9641e75ff83728750a741d63d8fe507146d1d691e4270515
+  languageName: node
+  linkType: hard
+
 "vega-embed@npm:^6.2.1":
   version: 6.21.3
   resolution: "vega-embed@npm:6.21.3"
@@ -22008,22 +22040,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vega-format@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "vega-format@npm:1.1.4"
+  dependencies:
+    d3-array: ^3.2.2
+    d3-format: ^3.1.0
+    d3-time-format: ^4.1.0
+    vega-time: ^2.1.4
+    vega-util: ^1.17.4
+  checksum: d0967d0aefa8c755c4351e6deefcbdb751ff2a2f920ffadcfcb342f925bfd9b7d570ac0628bbe3de6a648556da5e9cbf134659462237f8c500ea3d6ab55e946f
+  languageName: node
+  linkType: hard
+
 "vega-functions@npm:^5.18.0, vega-functions@npm:~5.18.0":
-  version: 5.18.0
-  resolution: "vega-functions@npm:5.18.0"
+  version: 5.18.1
+  resolution: "vega-functions@npm:5.18.1"
   dependencies:
     d3-array: ^3.2.2
     d3-color: ^3.1.0
     d3-geo: ^3.1.0
-    vega-dataflow: ^5.7.7
-    vega-expression: ^5.2.0
-    vega-scale: ^7.4.2
-    vega-scenegraph: ^4.13.1
-    vega-selections: ^5.6.0
+    vega-dataflow: ^5.7.8
+    vega-expression: ^5.2.1
+    vega-scale: ^7.4.3
+    vega-scenegraph: ^4.13.2
+    vega-selections: ^5.6.1
     vega-statistics: ^1.9.0
-    vega-time: ^2.1.3
-    vega-util: ^1.17.3
-  checksum: 3255bc908079d7f901c66e96dd65aa2a825a7be7e74b74d1ed6a07ba52e1e2419a9281c730be9251f2272803aaeb9a11b21ad9994fc1435f6e1a5aa9043d9e23
+    vega-time: ^2.1.4
+    vega-util: ^1.17.4
+  checksum: 9f1e36eba28123c132c4598de0350f4b425bdc3ebf8bcdf07632c37abd4128870f216552c6d75e4b43dcc76efbff443b5b7b81b452ba5e329560e1bede03c2bf
   languageName: node
   linkType: hard
 
@@ -22111,6 +22156,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vega-loader@npm:^4.5.4":
+  version: 4.5.4
+  resolution: "vega-loader@npm:4.5.4"
+  dependencies:
+    d3-dsv: ^3.0.1
+    node-fetch: ^2.6.7
+    topojson-client: ^3.1.0
+    vega-format: ^1.1.4
+    vega-util: ^1.17.4
+  checksum: 27de0ea61284bdaa83adaa1c9e474380134859962313aa22aeef21864b8de5de0eef6683db301d13fc63d7ea2ee9d5aa3d0307cc01fdc978648ac4952b610934
+  languageName: node
+  linkType: hard
+
 "vega-parser@npm:~6.6.0":
   version: 6.6.0
   resolution: "vega-parser@npm:6.6.0"
@@ -22171,6 +22229,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vega-scale@npm:^7.4.3":
+  version: 7.4.3
+  resolution: "vega-scale@npm:7.4.3"
+  dependencies:
+    d3-array: ^3.2.2
+    d3-interpolate: ^3.0.1
+    d3-scale: ^4.0.2
+    d3-scale-chromatic: ^3.1.0
+    vega-time: ^2.1.4
+    vega-util: ^1.17.4
+  checksum: 8ea9a93ea36584f402242bf6f3b6adaf39d8e6d605d9c6134449676bd9eb87aaf56c83fcded1b75a6aa8196d62c2c2ebe1bc52f0a22d87169d2b0e336ec42e25
+  languageName: node
+  linkType: hard
+
 "vega-scenegraph@npm:^4.13.1, vega-scenegraph@npm:~4.13.1":
   version: 4.13.1
   resolution: "vega-scenegraph@npm:4.13.1"
@@ -22185,6 +22257,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vega-scenegraph@npm:^4.13.2":
+  version: 4.13.2
+  resolution: "vega-scenegraph@npm:4.13.2"
+  dependencies:
+    d3-path: ^3.1.0
+    d3-shape: ^3.2.0
+    vega-canvas: ^1.2.7
+    vega-loader: ^4.5.4
+    vega-scale: ^7.4.3
+    vega-util: ^1.17.4
+  checksum: d6bb56485028ea87320fd94202726bb1d6bf85c48163f9fe1063647ab4c03dcfed021d4736172920b075642c2da217471c4d4862bc01eb83d185ee3f6b05eb85
+  languageName: node
+  linkType: hard
+
 "vega-schema-url-parser@npm:^2.2.0":
   version: 2.2.0
   resolution: "vega-schema-url-parser@npm:2.2.0"
@@ -22192,7 +22278,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vega-selections@npm:^5.6.0":
+"vega-selections@npm:^5.6.1":
   version: 5.6.3
   resolution: "vega-selections@npm:5.6.3"
   dependencies:
@@ -22230,6 +22316,17 @@ __metadata:
     d3-time: ^3.1.0
     vega-util: ^1.17.3
   checksum: c2a72ac6593ea1fabab95b72ce33b89a6ce2161330bcbaaa6508d61bbcd7edc940a9e76ae6d9a979be9d7c81eef4b26cd3592209bac201eca7356dfea7cc38ac
+  languageName: node
+  linkType: hard
+
+"vega-time@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "vega-time@npm:2.1.4"
+  dependencies:
+    d3-array: ^3.2.2
+    d3-time: ^3.1.0
+    vega-util: ^1.17.4
+  checksum: 344c8aaf23502cd5631a010144c4618f8e756f95e4bda4a86031a6e6c6041d964c1efa181d2648ab656121d1166df5b7cc05177ae2c20804f14f3e776405fd45
   languageName: node
   linkType: hard
 
