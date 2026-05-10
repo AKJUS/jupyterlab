@@ -20,7 +20,7 @@
     "@jupyterlab/extensionmanager-extension": "^2.0.2",
     "@jupyterlab/filebrowser-extension": "^2.0.2",
     "@jupyterlab/fileeditor-extension": "^2.0.2",
-    "@jupyterlab/help-extension": "^2.0.2",
+    "@jupyterlab/help-extension": "^4.5.7",
     "@jupyterlab/imageviewer-extension": "^2.0.2",
     "@jupyterlab/inspector-extension": "^2.0.2",
     "@jupyterlab/launcher-extension": "^2.0.2",
